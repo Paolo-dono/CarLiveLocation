@@ -4,6 +4,9 @@ CarLiveLocation
 
 This app receives MQTT messages that contain decimal coordinates. These are used to update the location of a marker on a map to show the live location of a GPS device.
 
+* GitHub repo: https://github.com/Paolo-dono/CarLiveLocation
+* Free Software: MIT License
+
 Requirements for phone:
 
 * Your phone must be an Android device that runs Android 5.0 or later and have at least 1GB RAM
