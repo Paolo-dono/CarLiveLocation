@@ -4,10 +4,9 @@ CarLiveLocation
 
 This app receives MQTT messages that contain decimal coordinates. These are used to update the location of a marker on a map to show the live location of a GPS device.
 
-Requirements:
+Requirements for phone:
 
-* This app was developed for an Android device
-* Your phone must run Android 6.0 or later and have at least 1GB RAM
+* Your phone must be an Android device that runs Android 5.0 or later and have at least 1GB RAM
 
 Steps to install the app:
 
@@ -30,5 +29,10 @@ Steps to install the app:
   * If your phone appears in the dropdown menu right next to the green play button in Android Studio or shows up as one of the devices when you click in that dropdown menu, you can skip the following step
   * Go to File Explorer -> Right click on 'This PC' -> Select 'Manage' from the right click menu -> Device Manager -> Right click on your phone or expand 'Android Phone' and right click -> Update Driver -> Search automatically for updated driver software -> Wait for it to finish loading then click on 'Close'
   * Then the final step is to run the program by hitting the green play button in Android Studio and then the app will be installed on your phone and automatically open
- 
+  
+Acknowledgements:
 
+* MQTT communication code adapted from: https://github.com/eclipse/paho.mqtt.android/blob/master/paho.mqtt.android.example/src/main/java/paho/mqtt/java/example/PahoExampleActivity.java
+* Google Maps setup (YouTube): Android Coding - How to Implement Google Map in Android Studio
+  
+  * Link: https://www.youtube.com/watch?v=eiexkzCI8m8&t=213s
