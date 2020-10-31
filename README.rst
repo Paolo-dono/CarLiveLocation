@@ -15,8 +15,7 @@ Steps to install the app:
 
 * Download the latest Java JDK
 * Get Android Studio
-* Open Android Studio and go to:
-* File -> New -> Project from Version Control...
+* Open Android Studio and go to File -> New -> Project from Version Control...
 * Paste the following URL: https://github.com/Paolo-dono/CarLiveLocation
 * Click on 'Clone'
 * You will now be able to run the project
