@@ -32,6 +32,12 @@ Steps to install the app:
   * Go to File Explorer -> Right click on 'This PC' -> Select 'Manage' from the right click menu -> Device Manager -> Right click on your phone or expand 'Android Phone' and right click -> Update Driver -> Search automatically for updated driver software -> Wait for it to finish loading then click on 'Close'
   * Then the final step is to run the program by hitting the green play button in Android Studio and then the app will be installed on your phone and automatically open
   
+If you would like to use the Seeed Studio Grove GPS as the GPS device, you can do the following:
+
+* Install the groveGPS API. Go to the following link learn how to do this: https://github.com/Paolo-dono/Grove_GPS/blob/master/README.rst
+* Install the the mosquitto broker for MQTT communication with the command: sudo apt-get install mosquitto
+* Run the following python file on your Raspberry Pi: https://github.com/Paolo-dono/Grove_GPS/blob/master/docs/stream_coordinates.py
+
 Acknowledgements:
 
 * MQTT communication code adapted from: https://github.com/eclipse/paho.mqtt.android/blob/master/paho.mqtt.android.example/src/main/java/paho/mqtt/java/example/PahoExampleActivity.java
